@@ -1,0 +1,20 @@
+.accordion{
+  box-shadow: 1px 1px 19px 7px #000000;
+}
+
+.accordion-item .accordion-header .accordion-button{
+    background-color: skyblue;
+    color:White;
+  }
+  
+  .accordion-item .accordion-body{
+    background:white;
+ 
+  }
+  
+  /* אקורדיון שסגור */
+  /* שיש נקודה זה הפוך להיות צמוד */
+  .accordion-item .accordion-header .accordion-button.collapsed{
+    background-color: silver;
+    color:black;
+  }

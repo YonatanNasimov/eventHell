@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Glory</title>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Open+Sans:ital,wght@1,300&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="trivia.css">
+    <script src="js_trivia/appTrivia.js" defer></script>
+    <script src="js_trivia/triviaFunc.js"></script>
+    <script src="js_trivia/triviaJson.js"></script>
+</head>
+
+<body>
+    <header class="container-fluid">
+        <div class="container ">
+            <nav class="d-flex justify-content-between align-items-center">
+
+                <div class="text-center">
+                    <a href="index.html">
+                        <h1 class="">Glory</h1>
+                        <h4 class="">Events&conferences</h4>
+                    </a>
+                </div>
+                <div>
+                    <ul id="nav_open" class="nav">
+                        <li>
+
+                            <a href="abaut.html">
+                                <i class=" fa fa-address-book" aria-hidden="true"></i>
+                                About
+                            </a>
+
+                        </li>
+                        <li>
+
+                            <a href="gallery.html">
+                                <i class="fa fa-camera" aria-hidden="true"></i>
+                                Gallery
+                            </a>
+
+                        </li>
+                        <li>
+
+                            <a href="contact.html">
+                                <i class="fa fa-phone" aria-hidden="true"></i>
+                                Contact us
+                            </a>
+
+                        </li>
+                        <li>
+
+                            <a href="qa.html">
+                                <i class="fa fa-question-circle" aria-hidden="true"></i>
+                                Q&A
+                            </a>
+
+                        </li>
+                        <li>
+
+                            <a href="trivia.html">
+                                <i class="fa fa-trophy" aria-hidden="true"></i>
+                                Quiz
+                            </a>
+
+                        </li>
+                    </ul>
+                    <div class="burger">
+                        <i id="burger_btn" class="fa fa-bars" aria-hidden="true"></i>
+                    </div>
+                </div>
+            </nav>
+        </div>
+
+    </header>
+
+
+ 
+    <main class="container-fluid">
+        <h1 class="text-center p-2">Trivia quiz</h1>
+        <div class="main container ">
+            <div id="id_parent">
+                <!-- <div class="question"> 
+                     <h2>Who invite Javascript</h2>
+                  <div class="answers">
+                    <button>Microsoft</button>
+                    <button>Netscape</button>
+                    <button>Google</button>
+                    <button>Apple</button>
+                  </div> 
+                </div> -->
+            </div>
+            <div class="score shadow text-center my-4 h4">Score: <span id="id_score"></span></div>
+        </div>
+    </main>
+
+
+
+
+
+    <footer class="container-fluid bg-primary">
+        <div class="container d-flex justify-content-between align-items-center ">
+            <div class="text-light">
+                All rights reserved to Yehonatan Nasimov Ltd.
+            </div>
+            <div class="icon center">
+                <a href="https://www.instagram.com/eyalpazproduction/">
+                    <i class="fa fa-instagram" aria-hidden="true"></i>
+                </a>
+                <a href="https://ms-my.facebook.com/yonatan.nasimov">
+                    <i class="fa fa-facebook-official" aria-hidden="true"></i>
+                </a>
+                <a href="https://twitter.com/netanyahu/with_replies">
+                    <i class="fa fa-twitter" aria-hidden="true"></i>
+                </a>
+            </div>
+        </div>
+
+    </footer>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+    crossorigin="anonymous"></script>
+<script src="burger.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init();
+</script>
+
+</html>

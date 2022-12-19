@@ -1,0 +1,54 @@
+
+main h2 {
+  text-align: center;
+  font-weight: 300;
+  font-size: 3em;
+}
+
+
+main .answers {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+}
+
+main button {
+  width: 40%;
+  background: skyblue;
+  text-align: center;
+  padding: 8px;
+  margin: 4px;
+  cursor: pointer;
+  transition: 1000ms;
+  border-radius: 8px;
+}
+
+main button:hover {
+  background: rgba(255, 255, 255, 0.721);
+  transition: 1000ms;
+}
+main .score{
+  background:  rgba(255, 255, 255, 0.721);
+  width: 100px;
+  padding: 4px;
+  margin: 0 auto;
+  border-radius: 8px;
+}
+
+@media (max-width:768px) {
+  main button {
+    width: 80%;
+  }
+
+  main .main {
+    background: rgba(255, 255, 255, 0.721);
+    border-radius: 4px;
+    padding: 8px;
+
+  }
+  main button:hover {
+    background: skyblue;
+    transition: 0ms;
+  }
+}

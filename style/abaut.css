@@ -1,0 +1,49 @@
+main {
+    min-height: 1500px;
+}
+
+
+main .team .row .box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    display: block;
+
+
+}
+
+main .read_more .box2 {
+    
+    background: white;
+}
+
+main .container .team .row .box_inside {
+    width: 75%;
+    margin: 0 auto;
+    background: white;
+    /* width: 200px; */
+    border-radius: 8px;
+
+}
+#more {
+    display: none;
+}
+main .container button{
+    border-radius:4px;
+    background: rgb(175, 209, 222);
+    color: black;
+}
+main .team .row .box img {
+    border-radius: 50%;
+    -webkit-box-shadow: 5px 5px 15px 5px #000000;
+    box-shadow: 5px 5px 15px 5px #000000;
+    margin-bottom: 8px;
+}
+
+
+@media (max-width:768px) {
+    main .read_more .box2 {
+        margin-bottom: 16px;
+        background: white;
+    }
+}
